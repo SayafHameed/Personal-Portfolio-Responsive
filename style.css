@@ -623,7 +623,7 @@ width: 100%;
         .project-box:hover .project-layer{
             transform: translateY(25%);
         }
-        .home-content a:nth-of-type(2){
+        .home-content .down-btn{
             /* margin-left: 2rem; */
             display: none;
         }
