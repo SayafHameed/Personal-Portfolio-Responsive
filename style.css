@@ -96,11 +96,12 @@ transition: .5s;
     width: 35vw;
     opacity: 1;
     height: 35vw;
-    border-radius: 50%;
-    outline: none;
-    border: 1rem solid var(--main-color);
-    /* padding: .5rem; */
-    box-shadow: 0 2rem 1.5rem var(--main-color);
+    
+    border-radius: 50%; 
+    outline: none; 
+    border: 1rem solid var(--main-color); 
+    padding: .5rem; 
+    box-shadow: 0 2rem 1.5rem var(--main-color); 
     transition: .5s ease;
     animation: floatImage 4s ease-in-out infinite;
 }
@@ -166,9 +167,10 @@ span{
     transition: .5s ease;
 }
 .down-btn{
+    
     /* background: #000; */
     position: absolute;
-    left: 50%;
+    left: 40%;
     /* right: 50%; */
     width: 15rem;
     /* text-align: center; */
@@ -177,6 +179,7 @@ span{
     justify-content: center;
     animation: floaticon 4s ease-in-out infinite;
     top: 90%;
+    /* display: none; */
 }
 
 @keyframes floaticon {
@@ -621,7 +624,7 @@ width: 100%;
             transform: translateY(150%);
         }
         .project-box:hover .project-layer{
-            transform: translateY(25%);
+            transform: translateY(0%);
         }
         .down-btn{
             /* margin-left: 2rem; */
